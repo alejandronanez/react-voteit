@@ -10,13 +10,14 @@
   "author": "Alejandro Nanez <alejonanez@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "react": "^0.11.1",
-    "gulp-react": "^1.0.1",
     "gulp": "^3.8.8",
-    "gulp-connect": "^2.0.6",
-    "gulp-concat": "^2.4.0",
-    "gulp-open": "^0.2.8",
     "gulp-browserify": "^0.5.0",
+    "gulp-concat": "^2.4.0",
+    "gulp-connect": "^2.0.6",
+    "gulp-open": "^0.2.8",
+    "gulp-react": "^1.0.1",
+    "lodash": "^2.4.1",
+    "react": "^0.11.1",
     "reactify": "^0.14.0"
   }
 }
