@@ -28,7 +28,7 @@ var Feed = React.createClass({
                     <ShowAddButton displayed={this.state.formDisplayed} onToggleForm={this.onToggleForm} />
                 </div>
 
-                <FeedForm />
+                <FeedForm displayed={this.state.formDisplayed}/>
 
                 <br/>
                 <br/>
