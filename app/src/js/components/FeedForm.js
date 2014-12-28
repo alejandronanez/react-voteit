@@ -3,7 +3,7 @@ var React = require('react');
 var FeedForm = React.createClass({
     render: function () {
         return (
-            <form className="container">
+            <form id="feedForm" className="container">
                 <div className="form-group">
                     <input type="text" className="form-control" placeholder="Title" />
                     <input type="text" className="form-control" placeholder="Description" />

@@ -12,14 +12,20 @@ var Feed = React.createClass({
             {key: 3, title: 'Coffee makes you awake', description: 'A coffee pro here!', voteCount: 25}
         ];
         return {
-            items: FEED_ITEMS
+            items: FEED_ITEMS,
+            formDisplayed: false
         }
+    },
+    onToggleForm: function () {
+        this.setState({
+            formDisplayed: !this.state.formDisplayed
+        });
     },
     render: function () {
         return (
             <div>
                 <div className="container">
-                    <ShowAddButton />
+                    <ShowAddButton displayed={this.state.formDisplayed} onToggleForm={this.onToggleForm} />
                 </div>
 
                 <FeedForm />
