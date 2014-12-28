@@ -10,6 +10,7 @@
   "author": "Alejandro Nanez <alejonanez@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "firebase": "^2.0.6",
     "gulp": "^3.8.8",
     "gulp-browserify": "^0.5.0",
     "gulp-concat": "^2.4.0",
