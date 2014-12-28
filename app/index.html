@@ -36,39 +36,19 @@
             <h2>Voteit</h2>
         </div>
 
-        <div id="app">
-            <div>
+        <!--COMPONENTS DRAFT-->
+            <Feed>
+                <ShowAddButton />
+                <FeedForm />
 
-                <div class="container">
-                    <button class="btn btn-success btn-block">Create New Item</button>
-                </div>
+                <FeedList>
+                    <FeedItem />
+                </FeedList>
+            </Feed>
+        <!--/COMPONENTS DRAFT-->
 
-                <form class="container">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Title">
-                        <input type="text" class="form-control" placeholder="Description">
-                        <button type="submit" class="btn btn-primary btn-block">Add</button>
-                    </div>
-                </form>
+        <div id="app"></div>
 
-                <br>
-                <br>
-
-                <div class="container">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <span class="badge badge-success">60</span>
-                            <h4>JavaScript is fun</h4>
-                            <span>Lexical scoping FTW</span>
-                            <span class="pull-right">
-                                <button id="up" class="btn btn-sm btn-primary">&uarr;</button>
-                                <button id="down" class="btn btn-sm btn-primary">&darr;</button>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <script src="/dist/js/app.js"></script>
+        <script src="/dist/js/main.js"></script>
     </body>
 </html>

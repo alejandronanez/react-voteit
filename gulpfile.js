@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     port = process.env.port || 3031;
 
 gulp.task('browserify', function () {
-    gulp.src('./app/src/js/components/main.js')
+    gulp.src('./app/src/js/main.js')
         .pipe(browserify({
             transform: 'reactify'
         }))
